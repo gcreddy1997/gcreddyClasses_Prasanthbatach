@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" preserve-order = "false" parallel="true" thread-count ="2">
+  <test name="Test">
+   <!--   <groups>
+       <run>
+         <include name ="smoke"/>  
+             <include name ="Regression"/>
+          <include name = “groupName”/>   
+         
+       </run>
+    </groups>  -->
+   
+    <classes>
+       <!--   <class name="class1.Rashmi_TestNG2ndClass"/>   -->
+         <class name="class1.AnkitTestNGClass"/> 
+        <class name="class1.Rashmi_TestNG2ndClass"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
